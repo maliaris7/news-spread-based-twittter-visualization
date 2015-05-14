@@ -1,7 +1,7 @@
 <?php
 // fill in your consumer key and consumer secret below
-define('CONSUMER_KEY', '6fAkSuHFZ2govXvJ8P3Q5tsts');
-define('CONSUMER_SECRET', '7FwZHhTnXvRkWM8zi0n8sxyeEXrUOvL6RzcnatPbZK5sUZpzeS');
+define('CONSUMER_KEY', '************************************');
+define('CONSUMER_SECRET', '************************************');
 /**
 *        Get the Bearer Token, this is an implementation of steps 1&2
 *        from https://dev.twitter.com/docs/auth/application-only-auth

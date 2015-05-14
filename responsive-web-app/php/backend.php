@@ -3,7 +3,7 @@
 //create the json data by calling the createJson function with the news corporation twitter handle in string form without the @
 //notice that prior to that you have to run the createDB.php script and manually insert the handle (again without the @) and the corresponding 
 //longitude and latitude of the said news corporation Headquarters.
-//and change the bearer token (can be acquired by registering a twitter app)in the twitter_req function 
+//and change the bearer token in the twitter_req function(get it by runing the oauth.php included notice the you have to change the credencials in the oauth script)
 set_time_limit (0);
 
 createJson('CNN');
