@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang=''>
+	<head>
+		<link rel="shortcut icon" href="https://63bf6e73e9cdd32fad466a4e99185bea3329434e-www.googledrive.com/host/0B1LnKr3Yo9hyflh3YTBLNTJIaEM5QVlPQmk5RG5WY1hwMFQ2Z1FOQVU3bEtYVXZ6NW56bnM/faucet%20(1).ico">
+		<meta charset='utf-8'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/styles.css">
+		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+		<script src="js/nav_script.js"></script>
+		<script src="js/map_script.js"></script>
+		<title>NewsFlow</title>   
+	</head>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+	<body>
+		<div id='cssmenu'>
+			<ul>
+				<li><a href='home.html'>Home</a></li>
+				<li class='active has-sub'><a href='index.html'>News Agency</a>
+			<ul>
+				<li>
+					<form id="contact_modal_form" method='post' action='php\getresults.php'>
+						<input type="hidden" name="Name" value="BBC" />
+						<button class='contact_modal_button' type='submit'>BBC</button>
+					</form>
+				</li>
+				<li>
+					<form id="contact_modal_form2" method='post' action='php\getresults2.php'>
+						<input type="hidden" name="Name" value="CNN" />
+						<button class='contact_modal_button' type='submit'>CNN</button>
+					</form>
+				</li>
+				<li>
+					<form id="contact_modal_form3" method='post' action='php\getresults3.php'>
+						<input type="hidden" name="Name" value="nbc" />
+						<button class='contact_modal_button' type='submit'>NBC</button>
+					</form>
+				</li>
+			</ul>
+				<li><a href='#'>About</a></li>
+			</ul>
+		</div>
+		<div id="map-canvas">
+			<div id ="description">
+			<h1>Responsive web visualization app based on news spread via twitter</h1>
+
+			<p>In more detail the visualization represents the flow of news posted by official twitter accounts of big news corporations,</p>
+			<p>such as BBC , CNN and others.The flow of information is represented by polylines on a world map.It should be</p>
+			<p> noted the there is an noticeable correlation between the users doing the retweets and the followers of the</p>
+			<p>news corporation by which the tweet was posted, that feature adds an extra functionality to the visualization , namely</p>
+			<p>the geographical representation of the active followers the posting corporation has.</p>
+			</div>
+		</div>
+	</body>
+	
+<html>
